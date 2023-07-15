@@ -1,14 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import { ProjectItem } from "../helpers/ProjectList";
 
-function ProjectItem({ image, name, skills, slug, url }: ProjectItem) {
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call
+function ProjectItem({ image, name, slug }: ProjectItem) {
   const navigate = useNavigate();
   return (
     <div
       className="projectItem"
       onClick={() => {
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-call
         navigate("/project/" + slug);
       }}
     >

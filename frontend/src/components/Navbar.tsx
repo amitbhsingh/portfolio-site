@@ -5,7 +5,6 @@ import ReorderIcon from '@mui/icons-material/Reorder';
 
 function Navbar() {
   const [expandNavbar, setExpandNavabar] = useState(false);
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call
   const location = useLocation();
   useEffect(() => {
     setExpandNavabar(false);
