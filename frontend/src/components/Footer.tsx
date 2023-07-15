@@ -22,7 +22,7 @@ const Footer = () => {
           <EmailIcon />
         </Link>
       </div>
-      <p>&copy; 2023</p>
+      <p>&copy; Amitkumar</p>
       {/* <Link className='insta'></Link> */}
     </div>
   );
